@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href ="https://caiklacerda.github.io/html-css/desafios/d010/assets/index.html">Projeto site curiosidades sobre o Android</a>
+ <a href ="https://caiklacerda.github.io/html-css/desafios/d010/assets/index.html" target ="_blank">Projeto site curiosidades sobre o Android</a>
