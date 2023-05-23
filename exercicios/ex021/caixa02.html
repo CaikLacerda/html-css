@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(182, 188, 194);
+            margin: 0px;
+        }
+
+        header {
+            width: auto;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        article > aside {
+            background-color: rgb(175, 175, 175);
+        }
+
+        nav{
+            background-color: rgb(122, 122, 122);
+            padding: 3px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 30px;
+            margin-right: 30px;
+            margin-left: 5px;
+        }
+        
+        aside {
+            font-style: italic;
+            font-size: 0.7em;
+            text-align: end;
+        }
+
+        nav > a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: rgb(189, 189, 189);
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.185);
+        }
+
+        section > div {
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.288);
+            border-radius: 4px;
+        }
+        
+        #assuntos {
+            background-color: rgb(189, 189, 189); 
+            height: 150px;   
+        }
+
+        #assuntos > div > a {
+            text-decoration: none;
+        }
+
+        #assuntos > div {
+            display: inline-block;
+            text-align: center;
+            background-color: white;
+            margin-left: 40px;
+            margin-top: 40px;
+            height: 40px;
+            width: 150px;
+            padding: 10px;
+        }
+
+        #assuntos > h1 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            width: 300px;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 2px;
+        }
+
+        #noticias {
+            border-radius: 10px;
+        }
+
+        #esporte {
+            background-color: green;
+        }
+
+        #politica {
+            background-color: red;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a class="linkexemplo" href="#">Link</a>
+            <a class="linkexemplo" href="#">Link</a>
+            <a class="linkexemplo" href="#">Link</a>
+            <a class="linkexemplo" href="#">Link</a>
+            <a class="linkexemplo" href="#">Link</a>
+        </nav>
+   </header>
+
+   <main>
+        <section id="assuntos">
+            <h1>Assuntos para ler</h1>
+            <div id="esporte">
+                <a href="">Esportes</a>
+            </div>
+            <div id="politica">
+                <a href="">Política</a>
+            </div>
+            <div id="tecnologia">
+                <a href="">Tecnologia</a>
+            </div>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus reiciendis optio, eum dignissimos, aliquam vitae sit obcaecati ullam expedita velit tempora quod tenetur nam natus minima modi earum? Ex, repudiandae.
+                </p>
+                <aside>Artigo escrito por José da Silva</aside>
+            </article>
+            <article>
+                <h2>Notícias sobre o mundo</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam consectetur nisi necessitatibus impedit nesciunt suscipit est, dicta eos a mollitia iusto quaerat nostrum, aliquid totam! Sint pariatur sapiente dignissimos doloremque.
+                </p>
+                <aside>Artigo escrito por Caikudo Dias</aside>
+            </article>
+        </section>
+   </main>
+        
+   <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+   </footer>
+   <div id="bola" ></div>
+</body>
+</html>
