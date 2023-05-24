@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+</head>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-image: url(imagens/wallpaper005.jpg);
+            background-position: center top;
+            background-repeat: repeat-x;
+            width: 100;
+        }
+
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.205);
+            max-height: max-content;
+            padding: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            transition: .5s all;
+            border-radius: 10px;
+        }
+
+        nav > a:hover {
+            background-color: rgb(143, 142, 142);
+            transition: .5s all;
+        }
+
+        .menu {
+            margin-right: 20px;
+        }
+
+        #iniciomenu {
+            margin-left: 10px;
+        }
+    </style>
+<body>
+    <header>
+        <h1>Olá mundo</h1>
+    </header>
+    <nav>
+        <a href="#" class="menu" id="iniciomenu">Menu</a>
+        <a href="#" class="menu">Loja</a>
+        <a href="#" class="menu">Ranking</a>
+    </nav>
+</body>
+</html>
