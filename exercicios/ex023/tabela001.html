@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center; /* Alinhamento Horizontal */ 
+            vertical-align: bottom; /* Alinhamento Vertical*/
+        }
+
+        .dadoimportante {
+            background-color: rgb(118, 255, 114);
+        }
+
+        .numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela!</h1>
+
+    <table> <!-- Tabela -->
+        <tr> <!-- Primeira Linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <TD class="numero">C1</TD>
+        </tr>
+        <tr> <!-- Segunda Linha -->
+            <td>A2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
+        </tr>
+        <tr> <!-- Terceira Linha -->
+            <td>A3</td>
+            <td class="dadoimportante">B3</td>
+            <td class="numero">C3</td>
+        </tr>
+        <tr> <!-- Quarta Linha -->
+            <td>A4</td>
+            <td>B4</td>
+            <td class="numero">C4</td>
+        </tr>
+    </table>
+</body>
+</html>
