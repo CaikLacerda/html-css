@@ -13,7 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
-
+            position: relative;
         }
 
         tbody > tr:nth-child(odd) { /* Ou posso usar 2n (para ir de 2 em 2) */
@@ -22,7 +22,7 @@
 
         td, th {
             border: 1px solid black;
-            padding: 5px;
+            padding: 10px;
         }
 
         .numero {
@@ -30,8 +30,14 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(55,55,55);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(55,55,55);
         }
 
         caption {
@@ -68,19 +74,140 @@
 
         <tbody>
             <tr>
-                <td>São Paulo</td>
-                <td class="numero">45.919.049</td>
+                <td>Acre</td>
+                <td class="numero">795.145</td>
+            </tr>
+
+            <tr>
+                <td>Alagoas</td>
+                <td class="numero">3.327.551</td>
+            </tr>
+
+            <tr>
+                <td>Amapá</td>
+                <td class="numero">756.500</td>
+            </tr>
+
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">756.500</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">15.150.143</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">8.867.448</td>
+            </tr>
+
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="numero">2.867.869</td>
+            </tr>
+
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">3.894.899</td>
+            </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">6.551.322</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">6.861.924</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="numero">3.236.578</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="numero">2.630.098</td>
             </tr>
 
             <tr>
                 <td>Minas Gerais</td>
-                <td class="numero">21.168.791</td>
+                <td class="numero">20.777.672</td>
             </tr>
-            
+
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.101.180</td>
+            </tr>
+
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">3.950.359</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11.112.062</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9.297.861</td>
+            </tr>
+
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3.198.185</td>
+            </tr>
+
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="numero">17.264.943</td>
             </tr>
+
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="numero">3.419.550</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11.228.091</td>
+            </tr>
+
+            <tr>
+                <td>Rondônia</td>
+                <td class="numero">1.755.015</td>
+            </tr>
+
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">500.826</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">6.734.566</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">44.169.350</td>
+            </tr>
+
+            <tr>
+                <td>Sergipe</td>
+                <td class="numero">2.227.294</td>
+            </tr>
+
+            <tr>
+                <td>Tocantins</td>
+                <td class="numero">1.502.759</td>
+            </tr>
+            
         </tbody>
 
 
@@ -91,5 +218,33 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam repellat delectus dolores inventore voluptate modi, laborum non fuga, omnis minus fugiat amet optio tenetur possimus, quibusdam ratione vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ea beatae, nobis repudiandae error voluptatibus omnis excepturi esse nisi delectus repellendus tempore eius quam quasi libero dolorem deleniti nulla magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illum aut. Aut veniam nulla vel! Dicta animi, alias rerum minus quaerat quos, iusto ex fuga odio voluptas explicabo soluta dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, sequi! Distinctio, esse unde numquam, vitae repellendus consectetur expedita quaerat quibusdam nulla quo cumque animi aliquid labore provident porro molestiae? Facere.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam repellat delectus dolores inventore voluptate modi, laborum non fuga, omnis minus fugiat amet optio tenetur possimus, quibusdam ratione vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ea beatae, nobis repudiandae error voluptatibus omnis excepturi esse nisi delectus repellendus tempore eius quam quasi libero dolorem deleniti nulla magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illum aut. Aut veniam nulla vel! Dicta animi, alias rerum minus quaerat quos, iusto ex fuga odio voluptas explicabo soluta dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, sequi! Distinctio, esse unde numquam, vitae repellendus consectetur expedita quaerat quibusdam nulla quo cumque animi aliquid labore provident porro molestiae? Facere.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam repellat delectus dolores inventore voluptate modi, laborum non fuga, omnis minus fugiat amet optio tenetur possimus, quibusdam ratione vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ea beatae, nobis repudiandae error voluptatibus omnis excepturi esse nisi delectus repellendus tempore eius quam quasi libero dolorem deleniti nulla magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illum aut. Aut veniam nulla vel! Dicta animi, alias rerum minus quaerat quos, iusto ex fuga odio voluptas explicabo soluta dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, sequi! Distinctio, esse unde numquam, vitae repellendus consectetur expedita quaerat quibusdam nulla quo cumque animi aliquid labore provident porro molestiae? Facere.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam repellat delectus dolores inventore voluptate modi, laborum non fuga, omnis minus fugiat amet optio tenetur possimus, quibusdam ratione vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ea beatae, nobis repudiandae error voluptatibus omnis excepturi esse nisi delectus repellendus tempore eius quam quasi libero dolorem deleniti nulla magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illum aut. Aut veniam nulla vel! Dicta animi, alias rerum minus quaerat quos, iusto ex fuga odio voluptas explicabo soluta dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, sequi! Distinctio, esse unde numquam, vitae repellendus consectetur expedita quaerat quibusdam nulla quo cumque animi aliquid labore provident porro molestiae? Facere.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam repellat delectus dolores inventore voluptate modi, laborum non fuga, omnis minus fugiat amet optio tenetur possimus, quibusdam ratione vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ea beatae, nobis repudiandae error voluptatibus omnis excepturi esse nisi delectus repellendus tempore eius quam quasi libero dolorem deleniti nulla magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illum aut. Aut veniam nulla vel! Dicta animi, alias rerum minus quaerat quos, iusto ex fuga odio voluptas explicabo soluta dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, sequi! Distinctio, esse unde numquam, vitae repellendus consectetur expedita quaerat quibusdam nulla quo cumque animi aliquid labore provident porro molestiae? Facere.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam repellat delectus dolores inventore voluptate modi, laborum non fuga, omnis minus fugiat amet optio tenetur possimus, quibusdam ratione vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ea beatae, nobis repudiandae error voluptatibus omnis excepturi esse nisi delectus repellendus tempore eius quam quasi libero dolorem deleniti nulla magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illum aut. Aut veniam nulla vel! Dicta animi, alias rerum minus quaerat quos, iusto ex fuga odio voluptas explicabo soluta dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, sequi! Distinctio, esse unde numquam, vitae repellendus consectetur expedita quaerat quibusdam nulla quo cumque animi aliquid labore provident porro molestiae? Facere.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam repellat delectus dolores inventore voluptate modi, laborum non fuga, omnis minus fugiat amet optio tenetur possimus, quibusdam ratione vitae sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ea beatae, nobis repudiandae error voluptatibus omnis excepturi esse nisi delectus repellendus tempore eius quam quasi libero dolorem deleniti nulla magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illum aut. Aut veniam nulla vel! Dicta animi, alias rerum minus quaerat quos, iusto ex fuga odio voluptas explicabo soluta dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, sequi! Distinctio, esse unde numquam, vitae repellendus consectetur expedita quaerat quibusdam nulla quo cumque animi aliquid labore provident porro molestiae? Facere.
+    </p>
 </body>
 </html>
