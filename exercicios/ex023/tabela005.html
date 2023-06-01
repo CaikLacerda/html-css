@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .cnome {
+            background-color: rgb(199, 245, 199);
+        }
+
+        .cprof {
+            background-color: rgb(207, 207, 250);
+        }
+
+        .cidade {
+            background-color: rgb(252, 180, 180);
+        }
+
+        .csexo {
+            background-color: rgb(245, 245, 189);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof"> 
+        </colgroup>
+
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+
+        <tr>
+            <td>Caik</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Danilo</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Caminhoneiro</td>
+        </tr>
+    </table>
+</body>
+</html>
